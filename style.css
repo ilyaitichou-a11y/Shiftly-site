@@ -24,4 +24,3 @@ form{display:grid;gap:.8rem;max-width:34em}input,textarea,select{font:inherit;pa
 label{font-weight:600}footer{position:relative;z-index:1;background:var(--k);color:#bbb;padding:2rem 5vw;font-size:.9rem;border-top:3px solid var(--r)}
 footer a{color:var(--w);margin-right:1.2rem}footer img{height:34px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-body:not(.light) header img{filter:brightness(0) invert(1)}
