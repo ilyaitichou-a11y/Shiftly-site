@@ -1,0 +1,10 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact · Shiftly</title><meta name="description" content="Shiftly connects international students with Pirkanmaa businesses for flexible short-term work.">
+<link rel="icon" href="assets/logo-red.png"><link rel="stylesheet" href="style.css"></head>
+<body class="light"><header><a href="index.html"><img src="assets/logo-red.png" alt="Shiftly"></a><nav><a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About us</a><a href="contact.html" class=on>Contact</a></nav></header>
+<main><section class="page"><h1>Contact <span class="red">us</span></h1>
+<p>Business owner or student? Send us a message and we will reply soon. Your message opens in your own email app, so nothing is stored on this website.</p>
+<form id="f"><label>Name<input id="n" required></label><label>I am a<select id="t"><option>Business</option><option>Student</option><option>Other</option></select></label><label>Message<textarea id="m" rows="5" required></textarea></label><button class="btn" type="submit">Send</button></form>
+<p>Or email <a href="mailto:info@shiftly.fi">info@shiftly.fi</a> · Tampere, Finland · Business ID: [Y-tunnus]</p>
+<script>document.getElementById('f').onsubmit=e=>{e.preventDefault();const v=i=>encodeURIComponent(document.getElementById(i).value);location.href='mailto:info@shiftly.fi?subject='+v('t')+' enquiry from '+v('n')+'&body='+v('m')}</script></section></main>
+<footer><p>Shiftly · Making connections that click · Tampere, Finland</p><p><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms &amp; conditions</a><a href="contact.html">Contact</a></p><p>© 2026 Shiftly. All rights reserved.</p></footer></body></html>
